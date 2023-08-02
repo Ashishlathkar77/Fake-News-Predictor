@@ -1,0 +1,6 @@
+services:
+  web:
+    image: python:3.9.12
+    command: python app.py
+    environment:
+      PYTHON_VERSION: 3.9.12
